@@ -18,7 +18,7 @@ import java.util.List;
 public class LongestSubstringWithoutRepeatingCharacters {
 
     private static class CharUtil {
-        public int lengthOfLongestSubstring(String s) {
+        private int lengthOfLongestSubstring(String s) {
             if (s.length() == 0) {
                 return 0;
             }
