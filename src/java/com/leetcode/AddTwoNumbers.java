@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode;
 
 /**
  * Definition for singly-linked list.

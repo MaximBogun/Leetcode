@@ -1,4 +1,4 @@
-package com.company;
+package com.leetcode;
 /*
 * Given a 32-bit signed integer, reverse digits of an integer.
 
