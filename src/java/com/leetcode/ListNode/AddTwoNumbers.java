@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.ListNode;
 
 /**
  * Definition for singly-linked list.
@@ -13,14 +13,6 @@ import java.math.BigInteger;
 
 public class AddTwoNumbers {
 
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     private ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         BigInteger numberOne = getNumberFromListNode(l1);
